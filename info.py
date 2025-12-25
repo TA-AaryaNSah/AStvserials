@@ -35,7 +35,7 @@ PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2x
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglY7112nyBzRAwFub45XA_jL2n9LBzxQomHHi3gZgJzQ-sHpSf58bK2OyPZZgyfAb3OvpOSdmoDlpyVTLzc07O5h_yF-VWAckjU4Fa-WVjvBcpvvc-5eecRjivGhud2-I1vMs-SdEMKv0SSKRPdpmp6B15hIqYrhRoEin6nOTStzZyuymcH-JlJz8bF2Ni/s1600/20251225_204908.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://img.odivex.com/img/img_1757259312_155545e6ba.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYK8t4eY_VC5eIgYYVP_QLIMRjoSHo41tKZ7EA_8wjvxoYLDXTQFVLe08&s=10'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
 
 # ============================
