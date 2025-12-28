@@ -124,7 +124,7 @@ async def refercall(bot, query):
         await bot.edit_message_media(
             query.message.chat.id,
             query.message.id,
-            InputMediaPhoto("https://i.ibb.co/vvPgsk8b/20251229-011834.jpg")
+            InputMediaPhoto("https://i.ibb.co/Y73w2kMJ/20251229-013741.jpg")
         )
     except Exception as e:    
         pass
