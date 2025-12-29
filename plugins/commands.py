@@ -248,11 +248,14 @@ async def start(client, message):
                         InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", callback_data=f"checksub#{kk}#{file_id}")
                     ])
                     reply_markup = InlineKeyboardMarkup(btn)
-                photo = random.choice(FSUB_PICS) if FSUB_PICS else "https://graph.org/file/7478ff3eac37f4329c3d8.jpg"
+                photo = random.choice(FSUB_PICS) if FSUB_PICS else "https://i.ibb.co/WvStWqDh/20251229-121737.jpg"
                 caption = (
-                    f"👋 ʜᴇʟʟᴏ {message.from_user.mention}\n\n"
-                    "🛑 ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.\n"
-                    "👉 ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
+                    f"ʜᴇʏ {message.from_user.mention},\n\n"
+                  
+                   "<blockquote><b>🔔 ᴄʜᴀɴɴᴇʟ ᴊᴏɪɴ ʀᴇǫᴜɪʀᴇᴅ</b></blockquote>\n\n"
+                   
+                    "ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ, ʏᴏᴜ ᴍᴜꜱᴛ ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟꜱ ʙᴇʟᴏᴡ.\n\n"
+                    "‼️ ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ʟɪꜱᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ."
                 )
                 await message.reply_photo(
                     photo=photo,
