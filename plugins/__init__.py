@@ -26,8 +26,8 @@ async def check_expired_premium(client):
                 user = await client.get_users(user_id)
                 await client.send_message(
                     chat_id=user_id,
-                    text=f"<b>ʜᴇʏ {user.mention},\n\n<blockquote>ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇꜱꜱ ʜᴀꜱ ᴇxᴘɪʀᴇᴅ. ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴏᴜʀ ꜱᴇʀᴠɪᴄᴇ 😊</blockquote>\n\n
-ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛᴀᴋᴇ ᴘʀᴇᴍɪᴜᴍ ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ /plan ꜰᴏʀ ᴛʜᴇ ᴅᴇᴛᴀɪʟꜱ ᴏꜰ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ.\n\nआपका ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇꜱꜱ समाप्त हो गया है हमारी सेवा का उपयोग करने के लिए धन्यवाद । यदि आप फिर से ᴘʀᴇᴍɪᴜᴍ लेना चाहते हैं, तो योजनाओं के विवरण के लिए /plan पर ᴄʟɪᴄᴋ करें।</b>"
+                    text=f"<b>ʜᴇʏ {user.mention},\n\n<blockquote>ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇꜱꜱ ʜᴀꜱ ᴇxᴘɪʀᴇᴅ. ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴏᴜʀ ꜱᴇʀᴠɪᴄᴇ 😊</blockquote>"\n\n
+"ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛᴀᴋᴇ ᴘʀᴇᴍɪᴜᴍ ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ /plan ꜰᴏʀ ᴛʜᴇ ᴅᴇᴛᴀɪʟꜱ ᴏꜰ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ.\n\nआपका ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇꜱꜱ समाप्त हो गया है हमारी सेवा का उपयोग करने के लिए धन्यवाद । यदि आप फिर से ᴘʀᴇᴍɪᴜᴍ लेना चाहते हैं, तो योजनाओं के विवरण के लिए /plan पर ᴄʟɪᴄᴋ करें।</b>"
                 )
                 await client.send_message(PREMIUM_LOGS, text=f"<b>#Premium_Expire\n\nUser name: {user.mention}\nUser id: <code>{user_id}</code>")
             except Exception as e:
